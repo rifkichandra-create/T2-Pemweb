@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pengembang - Rifki Chandra 15-2025-007</title>
+    
+    <!-- Penjelasan: Mengimpor font 'Fira Code' dari Google Fonts untuk tampilan khas kode/terminal -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Penjelasan: Menghubungkan berkas CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Penjelasan: Wadah utama kartu profil dengan gaya jendela terminal -->
+    <main class="terminal-card">
+        
+        <!-- Penjelasan: Bilah judul atas terminal dengan tombol navigasi khas MacOS -->
+        <header class="terminal-header">
+            <div class="window-buttons">
+                <span class="btn-dot close"></span>
+                <span class="btn-dot minimize"></span>
+                <span class="btn-dot maximize"></span>
+            </div>
+            <span class="terminal-title">rifki-chandra.sh</span>
+        </header>
+
+        <!-- Penjelasan: Bagian utama yang berisi foto profil, data, dan deskripsi -->
+        <section class="terminal-body">
+            
+            <!-- Penjelasan: Area foto profil dengan bingkai aksen neon -->
+            <div class="avatar-wrapper">
+                <img src="richanbiru.jpeg" alt="Foto Profil Rifki Chandra" class="profile-img">
+                <span class="status-badge"></span>
+            </div>
+
+            <!-- Penjelasan: Identitas pengguna dengan gaya baris perintah / command prompt -->
+            <div class="profile-info">
+                <h1 class="name"><span class="prompt">$</span> Rifki Chandra 15-2025-007</h1>
+                <p class="title">[Programmer Pemula]</p>
+                <p class="bio">// Sedang semangat belajar ngoding lagi dari awal untuk memperdalam logika dasar web dev.</p>
+            </div>
+            
+            <!-- Penjelasan: Statistik pengguna dalam bentuk baris ringkasan data -->
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label">Proyek</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">500</span>
+                    <span class="stat-label">Pengikut</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">476</span>
+                    <span class="stat-label">Mengikuti</span>
+                </div>
+            </div>
+
+            <!-- Penjelasan: Tombol interaktif dengan style konsol/tombol terminal -->
+            <div class="action-buttons">
+                <button class="btn btn-primary" type="button">> Follow</button>
+                <button class="btn btn-outline" type="button">> Message</button>
+            </div>
+
+        </section>
+        
+    </main>
+
+</body>
+</html>
